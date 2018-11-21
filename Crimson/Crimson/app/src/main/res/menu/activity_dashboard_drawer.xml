@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_expense"
+            android:title="Expenses" />
+        <item
+            android:id="@+id/nav_analysis"
+            android:title="Analysis" />
+
+        <item
+            android:id="@+id/nav_dues"
+            android:title="Dues" />
+
+        <item
+            android:id="@+id/nav_goals"
+            android:title="Goals" />
+
+        <item
+            android:id="@+id/nav_benefits"
+            android:title="Benefits" />
+
+        <item
+            android:id="@+id/nav_userProfile"
+            android:title="User Profile" />
+
+    </group>
+
+
+</menu>
